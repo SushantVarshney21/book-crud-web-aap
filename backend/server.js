@@ -13,6 +13,9 @@ mongoose.connect('mongodb://127.0.0.1:27017/bookDB')
 app.use(bodyParser.json());
 app.use(cors());
 
+const bookRoutes = require('./routes/book');
+app.use('/api/books', bookRoutes);
+
 
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
