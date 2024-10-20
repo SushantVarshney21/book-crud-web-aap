@@ -1,0 +1,63 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log
+/yarn-error.log
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+client/node_modules
+server/node_modules
+
+# Build output
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug files
+*.swp
+*.swo
+*.swn
+
+# Mac OS files
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# React testing outputs
+/coverage
+
+# Other unwanted folders
+/tmp
+/pids
+
+# Parcel Cache
+.cache/
+
+# Build cache
+/.next/
+.next/
+
+# Specific files
+client/build/
+server/dist/
+client/.env
+server/.env
+
+# Logs and PIDs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pids
